@@ -1,0 +1,47 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.footer{
+    background-color: gray;
+        color:white;
+}
+.column h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.column ul{
+list-style: none;
+}
+.column ul li{
+  font-size: 20px;  
+}
+.column p{
+    font-size: 20px;
+}
+
+
+.SocialMedia{
+margin: auto;
+
+}
+.SocialMedia ul{
+    list-style: none;
+    display: flex;
+}
+.SocialMedia ul li {
+    font-size: 30px;
+   
+}
+.SocialMedia ul li a{
+    color:white;
+}
+.SocialMedia ul li a:hover{
+    cursor: pointer;
+    color:lime;
+   
+} */
