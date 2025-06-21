@@ -1,64 +1,100 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from 'react';
+import { Container, Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
+  // const [searchTerm, setSearchTerm] = useState('');
+
+  // // Sample data to search through
+  // const data = [
+  //   "John Doe",
+  //   "Jane Smith",
+  //   "Alice Johnson",
+  //   "Bob Williams",
+  //   "Michael Brown",
+  //   "Emily Davis"
+  // ];
+
+  // // Filter data based on search term
+  // const filteredData = data.filter(item =>
+  //   item.toLowerCase().includes(searchTerm.toLowerCase())
+  // );
+
   return (
-    <>
- <Navbar expand="lg" style={{background:"red",color:"white"}}>
+    <Navbar expand="lg" variant="light"  sticky="top" className="px-5 m-auto " style ={{backgroundColor:"violet",color:"black",fontSize:"20px",fontWeight:"600"}}>
+ 
       <Container>
-        <Navbar.Brand href="/home">Lonely Home</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Brand as={Link} to="/">
+            <img src="/Images/lonelyhome.jpeg" alt="Lonely Home"  width="150" height="80" />
+        </Navbar.Brand>
+        {/* 🕊️ Golden Nest */}
+        <Navbar.Toggle aria-controls="navbar-content" />
+        <Navbar.Collapse id="navbar-content">
           <Nav className="me-auto">
-            <Nav.Link href="/home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+            {/* <Nav.Link as={Link} to="/">Home</Nav.Link> */}
+            <Nav.Link as={Link} to="/about">About Us</Nav.Link>
+       
+             <NavDropdown title="Facilities" id="nav-dropdown">
+              <NavDropdown.Item as={Link} to="/food">Food</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/donate">Clothes</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/events">Daily things</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/donate">Medical</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
+            <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
+            <Nav.Link as={Link} to="/career">Career</Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+            <NavDropdown title="More" id="nav-dropdown">
+              <NavDropdown.Item as={Link} to="/admissions">Admissions</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/donate">Donate</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/events">Events</NavDropdown.Item>
             </NavDropdown>
 
-          </Nav>
-                
-        </Navbar.Collapse>
-   
-      </Container>
-      <Nav>
-         <Nav.Link href="/Login">Login</Nav.Link>
-          <Nav.Link href="/Signup">Signup</Nav.Link>
-          
+              {/* <Form className="d-flex me-3">
+              <Form.Control
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+              />
+            </Form> */}
 
-                <Form inline>
-        <Row>
-          <Col xs="auto">
-            <Form.Control
-              type="text"
-              placeholder="Search"
-              className=" mr-sm-2"
-            />
-          </Col>
-          <Col xs="auto">
-            <Button type="submit">Submit</Button>
-          </Col>
-        </Row>
+            {/* <Container className="mt-4">
+      <Form className="d-flex mb-3">
+        <Form.Control
+          type="search"
+          placeholder="Search names..."
+          className="me-2"
+          aria-label="Search"
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
       </Form>
-      </Nav>
-    </Navbar>
-</>
-  )
-}
 
-export default Navigation
+      <ListGroup>
+        {filteredData.map((name, index) => (
+          <ListGroup.Item key={index}>{name}</ListGroup.Item>
+        ))}
+      </ListGroup>
+    </Container> */}
+
+
+          </Nav>
+            <Nav>
+            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+            <Nav.Link as={Link} to="/signup">Signup</Nav.Link>
+          </Nav>
+            
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};
+
+export default Navigation;
+
+
+
+
+   
+         
+        

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-img {
+  height: 80vh; /* or 100vh, 50%, etc. */
+  object-fit: cover; /* ensures the image doesn't stretch */
+}

@@ -1,86 +1,88 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
 import Card from 'react-bootstrap/Card';
-import { FaFacebook } from "react-icons/fa";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { FaFacebook, FaInstagramSquare, FaTwitterSquare, FaYoutube, FaLinkedin, FaHome, FaPhoneAlt } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-  <>
-  <h1>This is Footer part</h1>
-    <Card style={{height:"19rem"}}>
-      <Card.Header>Featured</Card.Header>
-      <div class="container text-center">
-  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-    <div class="col">
-      <div class="p-3">
-        <h3>Lonely Home</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-      </div>
-    </div>
-    <div class="col">
-      <div class="p-3">
-        <h3>Products</h3>
-        <ul>
-        <li>Your Account</li>
-        <li>Become an Affiliate</li>
-        <li>Shopping Rates</li>
-        <li>Help</li>
-        <li>Help</li>
-        </ul>
-      </div>
-    </div>
-    <div class="col">
-      <div class="p-3">
-          <h3>Products</h3>
-        <ul>
-      <li>Your Account</li>
-        <li>Become an Affiliate</li>
-        <li>Shopping Rates</li>
-        <li>Help</li>
-        <li>Help</li>
-        </ul>
-      </div>
-    </div>
-    <div class="col">
-      <div class="p-3">
-          <h3>USeful Links</h3>
-        <ul>
-        <li>Your Account</li>
-        <li>Become an Affiliate</li>
-        <li>Shopping Rates</li>
-        <li>Help</li>
-        <li>Help</li>
-        </ul>
-      </div>
-    </div>
-    <div class="col">
-      <div class="p-3">
-          <h3>Contacts</h3>
-        <ul>
-        <li>New York,Ny 10012, Us</li>
-        <li>info@example.com</li>
-        <li>+01 234 567 89</li>
-        <li>+ 01 234 567 89</li>
-        <li></li>
-        </ul>
-      </div>
-    </div>
-    
-  </div>
-</div>
-<div className="SocialMedia">
-<ul>
-<li><FaFacebook /></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ul>
-</div>
- <Card.Header>@ 2020 Copyright:LOnely Home.com</Card.Header>
-    </Card>
+    <>
+      <Card className='footer text-white bg-dark pt-4' style={{ minHeight: "25rem" }}>
+        <Card.Header className="text-center bg-secondary text-white">
+          <h4>Footer</h4>
+        </Card.Header>
 
-  </>
-  )
-}
+        <Container className="mt-4">
+          <Row className="text-start">
+            <Col md={3}>
+             <img src="/Images/lonelyhome.jpeg" alt="Lonely Home"  width="150" height="80" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Providing care with dignity and love.</p>
+            </Col>
 
-export default Footer
+            <Col md={2} className="useful-links">
+              <h5>Products</h5>
+              <ul className="list-unstyled">
+                <li><Link to="#">Your Account</Link></li>
+                <li><Link to="#">Terms and Conditions </Link></li>
+                <li><Link to="#">Privacy Policy</Link></li>
+                <li><Link to="#">Help</Link></li>
+              </ul>
+            </Col>
+
+            <Col md={2} className="useful-links">
+              <h5>Useful Links</h5>
+              <ul className="list-unstyled">
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/Faq">FAQ</Link></li>
+              </ul>
+            </Col>
+
+            <Col md={3} className="useful-links">
+              <h5>Contact</h5>
+              <ul className="list-unstyled">
+                <li><FaHome /> New York, NY 10012, US</li>
+                <li><IoMail /> info@example.com</li>
+                <li><FaPhoneAlt /> +01 234 567 89</li>
+              </ul>
+            </Col>
+
+            <Col md={2}>
+              <h5>Download Now</h5>
+              <a href="https://play.google.com/">
+                <img src="https://static.licdn.com/aero-v1/sc/h/142qudwblp58zwmc9vkqfplug" alt="Play Store" width="120" className="mb-2" />
+              </a>
+              <br />
+              <a href="https://www.apple.com/">
+                <img src="https://static.licdn.com/aero-v1/sc/h/76yzkd0h5kiv27lrd4yaenylk" alt="App Store" width="120" />
+              </a>
+            </Col>
+          </Row>
+
+          <hr className="bg-light" />
+
+          <Row className="justify-content-between align-items-center text-center mt-3">
+            <Col md={6} className="mb-2 mb-md-0">
+              <p className="mb-0">&copy; 2025 lonelyhome@gmail.com. All Rights Reserved.</p>
+            </Col>
+            <Col md={6} className="social-links">
+              <ul className="list-inline mb-0">
+                <li className="list-inline-item"><a href="https://www.facebook.com"><FaFacebook /></a></li>
+                <li className="list-inline-item"><a href="https://www.instagram.com"><FaInstagramSquare /></a></li>
+                <li className="list-inline-item"><a href="https://twitter.com"><FaTwitterSquare /></a></li>
+                <li className="list-inline-item"><a href="https://www.youtube.com"><FaYoutube /></a></li>
+                <li className="list-inline-item"><a href="https://in.linkedin.com"><FaLinkedin /></a></li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
+      </Card>
+    </>
+  );
+};
+
+export default Footer;

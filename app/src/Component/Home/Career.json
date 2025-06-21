@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "React Basics",
+    "text": "Learn the fundamentals of React.",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText": "Start Learning",
+    "link": "https://reactjs.org"
+  },
+  {
+    "id": 2,
+    "title": "Bootstrap UI",
+    "text": "Build responsive layouts with React-Bootstrap.",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText": "View Docs",
+    "link": "https://react-bootstrap.github.io/"
+  },
+  {
+    "id": 3,
+    "title": "Django + React",
+    "text": "Full-stack web development using Django and React.",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText": "Explore",
+    "link": "#"
+  }
+]
