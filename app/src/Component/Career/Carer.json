@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Clinical Pschologist",
+    "text": "Healthcare",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText1": "Start Learning",
+    "buttonText2": "Apply now",
+    "link": "",
+    "Location": ""
+  },
+  {
+    "id": 2,
+    "title": "Registered Nurse",
+    "text": "Nursing",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText1": "View Docs",
+    "buttonText2": "View Docs",
+    "link": "https://react-bootstrap.github.io/",
+     "Location": ""
+  },
+  {
+    "id": 3,
+    "title": "Patiengt Caretaker",
+    "text": "",
+    "image": "https://via.placeholder.com/150x100",
+   "buttonText1": "View Docs",
+    "buttonText2": "View Docs",
+    "link": "#",
+     "Location": ""
+  },
+  {
+    "id": 3,
+    "title": "Medical Social Worker",
+    "text": "Healthcare",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText1": "Explore",
+     "buttonText2": "Explore",
+    "link": "#",
+    "Location": ""
+  },
+  {
+    "id": 3,
+    "title": "Staff Nurse",
+    "text": "Health Care",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText1": "Explore",
+    "buttonText2": "Explore",
+    "link": "#",
+    "Location": ""
+  },
+  {
+    "id": 3,
+    "title": "Center Manager",
+    "text": "Facility Manager",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText1": "Explore",
+    "buttonText2": "Explore",
+    "link": "#",
+    "Location": ""
+  },
+  {
+    "id": 3,
+    "title": "Senior Finance Manager",
+    "text": "Finance and Accounting",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText1": "Explore",
+    "buttonText2": "Explore",
+    "link": "#",
+    "Location": ""
+  },
+  {
+    "id": 3,
+    "title": "Trainer",
+    "text": "Corporate",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText1": "Explore",
+    "buttonText2": "Explore",
+    "link": "#",
+    "Location": ""
+  },
+  {
+    "id": 3,
+    "title": "Mern Full Stack Developer",
+    "text": "Engineering - Software & QA",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText1": "Explore",
+    "buttonText2": "Explore",
+    "link": "#",
+    "Location": ""
+  },
+  {
+    "id": 3,
+    "title": "",
+    "text": "",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText1": "Explore",
+    "buttonText2": "Explore",
+    "link": "#",
+    "Location": ""
+  },
+  {
+    "id": 3,
+    "title": "",
+    "text": "",
+    "image": "https://via.placeholder.com/150x100",
+    "buttonText1": "Explore",
+    "buttonText2": "Explore",
+    "link": "#",
+    "Location": ""
+  }
+]

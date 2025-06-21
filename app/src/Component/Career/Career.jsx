@@ -1,6 +1,6 @@
 import React from 'react'
 import {  Container, Row, Col , Card , Button} from "react-bootstrap";
-import { cardData } from "./Component/Home/Career.json";
+import  cardData  from "./Carer.json";
 
 const Career = () => {
 //    const cardData = data.cards;
@@ -14,15 +14,24 @@ const Career = () => {
             <Card style={{ width: "100%" }}>
               <Card.Img variant="top" src={card.image} alt={card.title} />
               <Card.Body>
-                <Card.Title>{card.title}</Card.Title>
+                <Card.Title >{card.title}</Card.Title>
                 <Card.Text>{card.text}</Card.Text>
-                <Button
+                <Button className=''
                   variant="primary"
                   href={card.link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {card.buttonText}
+                  {card.buttonText1}
+                </Button>
+                
+                 <Button
+                  variant="secondary"
+                  href={card.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {card.buttonText2}
                 </Button>
               </Card.Body>
             </Card>

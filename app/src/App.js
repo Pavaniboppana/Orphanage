@@ -12,7 +12,15 @@ import Faq from './Component/Footer/Faq';
 import About from './Component/Home/About';
 import Blog from './Component/Footer/Blog';
 import Food from './Component/Food/Food';
-import Career from './Component/Home/Career';
+import Career from './Component/Career/Career';
+import Clinicalpschologist from './Component/Jobs/Clinicalpschologist';
+import Medicalsocialworker from './Component/Jobs/Medicalsocialworker';
+import Seniorfinancemanager from './Component/Jobs/Seniorfinancemanager';
+import Registerednurse from './Component/Jobs/Registerednurse';
+import Staffnurse from './Component/Jobs/Staffnurse';
+import Centermanager from './Component/Jobs/Centermanager';
+import Mernfullstackdeveloper from './Component/Jobs/Mernfullstackdeveloper';
+
 
 function App() {
   return (
@@ -28,6 +36,16 @@ function App() {
       <Route path="/blog" element={<Blog />}></Route>
       <Route path="/food" element={<Food />}></Route>
       <Route path="/career" element={<Career />}></Route>
+      <Route path="/clinicalpschologist" element={<Clinicalpschologist />}></Route>
+      <Route path="/clinicalpschologist" element={<Clinicalpschologist />}></Route>
+      <Route path="/medicalsocialworker" element={<Medicalsocialworker />}></Route>
+      <Route path="/seniorfinancemanager" element={<Seniorfinancemanager />}></Route>
+       <Route path="/registerednurse" element={<Registerednurse />}></Route>
+      <Route path="/blog" element={<Staffnurse />}></Route>
+      <Route path="/staffnurse" element={<TransitionEvent />}></Route>
+       <Route path="/centermanager" element={<Centermanager />}></Route>
+      <Route path="/mernfullstackdeveloper" element={<Mernfullstackdeveloper />}></Route>
+     
     </Routes>
     <Footer/>
     </>
