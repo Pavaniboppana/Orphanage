@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Ayesha Khan",
+        "specialization": "Cardiologist",
+        "experience": "10 years",
+        "contact": "ayesha.khan@hospital.com"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Rajeev Menon",
+        "specialization": "Neurologist",
+        "experience": "8 years",
+        "contact": "rajeev.menon@hospital.com"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Neha Sharma",
+        "specialization": "Dermatologist",
+        "experience": "5 years",
+        "contact": "neha.sharma@hospital.com"
+    },
+    {
+        "id": 4,
+        "name": "Dr. Vikram Reddy",
+        "specialization": "Orthopedic Surgeon",
+        "experience": "12 years",
+        "contact": "vikram.reddy@hospital.com"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Priya Verma",
+        "specialization": "Pediatrician",
+        "experience": "6 years",
+        "contact": "priya.verma@hospital.com"
+    }
+]

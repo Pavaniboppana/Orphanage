@@ -43,7 +43,7 @@ const Home = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-
+<p>hello</p>
 
 </>
   )

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Paracetamol 500mg",
+        "category": "Pain Reliever / Antipyretic",
+        "usage": "Used to reduce fever and relieve mild to moderate pain.",
+        "price": 20.00,
+        "manufacturer": "Cipla Ltd."
+    },
+    {
+        "id": 2,
+        "name": "Amoxicillin 250mg",
+        "category": "Antibiotic",
+        "usage": "Treats a wide variety of bacterial infections.",
+        "price": 45.00,
+        "manufacturer": "Sun Pharma"
+    },
+    {
+        "id": 3,
+        "name": "Cetirizine 10mg",
+        "category": "Antihistamine",
+        "usage": "Used for allergies, hay fever, and hives.",
+        "price": 15.00,
+        "manufacturer": "Dr. Reddy's"
+    },
+    {
+        "id": 4,
+        "name": "Metformin 500mg",
+        "category": "Antidiabetic",
+        "usage": "Used to control high blood sugar in type 2 diabetes.",
+        "price": 30.00,
+        "manufacturer": "Glenmark"
+    },
+    {
+        "id": 5,
+        "name": "Pantoprazole 40mg",
+        "category": "Proton Pump Inhibitor",
+        "usage": "Used for acid reflux and ulcers.",
+        "price": 25.00,
+        "manufacturer": "Torrent Pharmaceuticals"
+    }
+]
