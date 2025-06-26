@@ -89,6 +89,7 @@ const Navigation = () => {
               <NavDropdown.Item as={Link} to="/login">Login</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/signup">Signup</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/logout">Logout</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/changepassword">Changepassword</NavDropdown.Item>
             </NavDropdown>
 
             {/* Additional Dropdown

@@ -24,6 +24,7 @@ import Privacypolicy from './Component/Footer/Privacypolicy';
 import Termsandconditions from './Component/Footer/Termsandconditions';
 import Forgotpassword from './Component/Login/Forgotpassword';
 import Resetpassword from './Component/Login/Resetpassword';
+import Changepassword from './Component/Login/Changepassword';
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
       <Route path="/termsandconditions" element={<Termsandconditions />}></Route>
       <Route path="/forgotpassword" element={<Forgotpassword />}></Route>
       <Route path="/resetpassword" element={<Resetpassword />}></Route>
+      <Route path="/changepassword" element={<Changepassword />}></Route>
     </Routes>
     <Footer/>
     </>
