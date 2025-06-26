@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import { FaUser } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
@@ -44,6 +45,7 @@ const Navigation = () => {
             <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
             <Nav.Link as={Link} to="/career">Career</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+
             <NavDropdown title="More" id="nav-dropdown">
               <NavDropdown.Item as={Link} to="/admissions">Admissions</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/donate">Donate</NavDropdown.Item>
@@ -80,8 +82,21 @@ const Navigation = () => {
 
           </Nav>
             <Nav>
-            <Nav.Link as={Link} to="/login">Login</Nav.Link>
-            <Nav.Link as={Link} to="/signup">Signup</Nav.Link>
+               <NavDropdown title={<FaUser />} id="user-dropdown">
+              <NavDropdown.Item as={Link} to="/profile">Profile</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/settings">Settings</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item as={Link} to="/login">Login</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/signup">Signup</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/logout">Logout</NavDropdown.Item>
+            </NavDropdown>
+
+            {/* Additional Dropdown
+  <NavDropdown title="More" id="nav-dropdown">
+    <NavDropdown.Item as={Link} to="/admissions">Admissions</NavDropdown.Item>
+    <NavDropdown.Item as={Link} to="/donate">Donate</NavDropdown.Item>
+    <NavDropdown.Item as={Link} to="/events">Events</NavDropdown.Item>
+  </NavDropdown> */}
           </Nav>
             
         </Navbar.Collapse>

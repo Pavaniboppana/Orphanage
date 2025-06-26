@@ -20,6 +20,10 @@ import Registerednurse from './Component/Jobs/Registerednurse';
 import Staffnurse from './Component/Jobs/Staffnurse';
 import Centermanager from './Component/Jobs/Centermanager';
 import Mernfullstackdeveloper from './Component/Jobs/Mernfullstackdeveloper';
+import Privacypolicy from './Component/Footer/Privacypolicy';
+import Termsandconditions from './Component/Footer/Termsandconditions';
+import Forgotpassword from './Component/Login/Forgotpassword';
+import Resetpassword from './Component/Login/Resetpassword';
 
 
 function App() {
@@ -37,15 +41,17 @@ function App() {
       <Route path="/food" element={<Food />}></Route>
       <Route path="/career" element={<Career />}></Route>
       <Route path="/clinicalpschologist" element={<Clinicalpschologist />}></Route>
-      <Route path="/clinicalpschologist" element={<Clinicalpschologist />}></Route>
       <Route path="/medicalsocialworker" element={<Medicalsocialworker />}></Route>
       <Route path="/seniorfinancemanager" element={<Seniorfinancemanager />}></Route>
-       <Route path="/registerednurse" element={<Registerednurse />}></Route>
-      <Route path="/blog" element={<Staffnurse />}></Route>
-      <Route path="/staffnurse" element={<TransitionEvent />}></Route>
-       <Route path="/centermanager" element={<Centermanager />}></Route>
+      <Route path="/registerednurse" element={<Registerednurse />}></Route>
+      {/* <Route path="/" element={< />}></Route> */}
+      <Route path="/staffnurse" element={<Staffnurse />}></Route>
+      <Route path="/centermanager" element={<Centermanager />}></Route>
       <Route path="/mernfullstackdeveloper" element={<Mernfullstackdeveloper />}></Route>
-     
+      <Route path="/privacypolicy" element={<Privacypolicy />}></Route>
+      <Route path="/termsandconditions" element={<Termsandconditions />}></Route>
+      <Route path="/forgotpassword" element={<Forgotpassword />}></Route>
+      <Route path="/resetpassword" element={<Resetpassword />}></Route>
     </Routes>
     <Footer/>
     </>

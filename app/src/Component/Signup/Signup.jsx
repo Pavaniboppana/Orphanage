@@ -48,12 +48,12 @@ const Signup = () => {
 
    <div className="d-flex align-items-center mb-3">
                 <Form.Check type="checkbox" label=" I accept the  " />
-                <Link to="/forgot-password" className="text-decoration-none">
+                <Link to="/termsandconditions" className="text-decoration-none">
                 Terms of use
                   {/*  or terms & Conditions */}
                 </Link>
                 and
-                 <Link to="/forgot-password" className="text-decoration-none">
+                 <Link to="/privacypolicy" className="text-decoration-none">
                   Privacy Policy
                 </Link>
               </div>

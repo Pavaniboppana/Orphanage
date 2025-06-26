@@ -24,7 +24,7 @@ const Login = () => {
 
               <div className="d-flex justify-content-between align-items-center mb-3">
                 <Form.Check type="checkbox" label="Remember me" />
-                <Link to="/forgot-password" className="text-decoration-none">
+                <Link to="/forgotpassword" className="text-decoration-none">
                   Forgot password?
                 </Link>
               </div>

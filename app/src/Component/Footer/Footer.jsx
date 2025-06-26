@@ -27,8 +27,8 @@ const Footer = () => {
               <h5>Products</h5>
               <ul className="list-unstyled">
                 <li><Link to="#">Your Account</Link></li>
-                <li><Link to="#">Terms and Conditions </Link></li>
-                <li><Link to="#">Privacy Policy</Link></li>
+                <li><Link to="/termsandconditions">Terms and Conditions </Link></li>
+                <li><Link to="/privacypolicy">Privacy Policy</Link></li>
                 <li><Link to="#">Help</Link></li>
               </ul>
             </Col>
@@ -38,7 +38,7 @@ const Footer = () => {
               <ul className="list-unstyled">
                 <li><Link to="/contact">Contact</Link></li>
                 <li><Link to="/blog">Blog</Link></li>
-                <li><Link to="/Faq">FAQ</Link></li>
+                <li><Link to="/faq">FAQ</Link></li>
               </ul>
             </Col>
 
