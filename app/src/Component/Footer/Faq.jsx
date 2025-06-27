@@ -2,9 +2,10 @@ import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import faqData from './Faq.json';
 
+
 const Faq = () => {
   return (
-
+<>
 <div className='m-3'>
 
       <Accordion style={{ width: "60%", margin: "auto" }}>
@@ -21,6 +22,7 @@ const Faq = () => {
       </Accordion>
  
     </div>
+    </>
   )
 }
 

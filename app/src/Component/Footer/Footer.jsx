@@ -19,35 +19,40 @@ const Footer = () => {
         <Container className="mt-4">
           <Row className="text-start">
             <Col md={3}>
-             <img src="/Images/lonelyhome.jpeg" alt="Lonely Home"  width="150" height="80" />
+              <img src="/Images/lonelyhome.jpeg" alt="Lonely Home" width="150" height="80" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Providing care with dignity and love.</p>
             </Col>
 
             <Col md={2} className="useful-links">
-              <h5>Products</h5>
+              {/* Products /Services */}
+              <h5>Services</h5>
               <ul className="list-unstyled">
-                <li><Link to="#">Your Account</Link></li>
-                <li><Link to="/termsandconditions">Terms and Conditions </Link></li>
-                <li><Link to="/privacypolicy">Privacy Policy</Link></li>
-                <li><Link to="#">Help</Link></li>
+                <li><Link to="/youraccount">Your Account</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/help">Help</Link></li>
               </ul>
             </Col>
 
             <Col md={2} className="useful-links">
-              <h5>Useful Links</h5>
+              {/* Useful Links / company */}
+              <h5>Comapany</h5>
               <ul className="list-unstyled">
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
                 <li><Link to="/faq">FAQ</Link></li>
+                <li><Link to="/career">Career</Link></li>
+                <li><Link to="/privacypolicy">Privacy Policy</Link></li>
+                <li><Link to="/termsandconditions">Terms and Conditions </Link></li>
+                <li><Link to="/payment">Payment</Link></li>
+
               </ul>
             </Col>
 
             <Col md={3} className="useful-links">
               <h5>Contact</h5>
               <ul className="list-unstyled">
-                <li><FaHome /> New York, NY 10012, US</li>
-                <li><IoMail /> info@example.com</li>
                 <li><FaPhoneAlt /> +01 234 567 89</li>
+                <li><IoMail /> info@example.com</li>
+                <li><FaHome /> New York, NY 10012, US</li>
               </ul>
             </Col>
 
@@ -67,7 +72,8 @@ const Footer = () => {
 
           <Row className="justify-content-between align-items-center text-center mt-3">
             <Col md={6} className="mb-2 mb-md-0">
-              <p className="mb-0">&copy; 2025 lonelyhome@gmail.com. All Rights Reserved.</p>
+              {/* lonelyhome@gmail.com. */}
+              <p className="mb-0">&copy;Copyright @ 2025.All Rights Reserved.</p>
             </Col>
             <Col md={6} className="social-links">
               <ul className="list-inline mb-0">
