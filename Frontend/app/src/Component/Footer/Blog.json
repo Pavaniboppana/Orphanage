@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Explore Nature",
+    "leftText": "Location: Western Ghats",
+    "rightText": "Rating: ★★★★☆",
+    "description": "Discover the serene beauty of the Western Ghats with lush green forests, flowing streams, and peaceful hiking trails.",
+    "image": "https://via.placeholder.com/300x180.png?text=Nature",
+    "link": ""
+  },
+  {
+    "id": 2,
+    "title": "Historic Fort",
+    "leftText": "Location: Rajasthan",
+    "rightText": "Rating: ★★★★★",
+    "description": "Step back in time and experience the grandeur of ancient Indian architecture with a walk through this historic fort.",
+    "image": "https://via.placeholder.com/300x180.png?text=Fort",
+    "link": ""
+  },
+   {
+    "id": 3,
+    "title": "Historic Fort",
+    "leftText": "Location: Rajasthan",
+    "rightText": "Rating: ★★★★★",
+    "description": "Step back in time and experience the grandeur of ancient Indian architecture with a walk through this historic fort.",
+    "image": "https://via.placeholder.com/300x180.png?text=Fort",
+    "link": ""
+  }
+]
